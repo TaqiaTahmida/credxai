@@ -312,25 +312,25 @@ html, body, [class*="css"] {
 
 /* Sidebar */
 [data-testid="stSidebar"] {
-    background: linear-gradient(180deg, var(--navy) 0%, #071527 100%) !important;
+    background: var(--soft) !important;
 }
 
 [data-testid="stSidebar"] * {
     font-family: 'IBM Plex Sans', Arial, sans-serif !important;
-    color: rgba(255,255,255,0.88) !important;
+    color: #4B5563 !important;
 }
 
 [data-testid="stSidebar"] h1,
 [data-testid="stSidebar"] h2,
 [data-testid="stSidebar"] h3 {
-    color: #FFFFFF !important;
+    color: #344054 !important;
     letter-spacing: 0.08em;
     text-transform: uppercase;
 }
 
 [data-testid="stSidebar"] .stAlert {
-    background: rgba(255,255,255,0.08) !important;
-    border: 1px solid rgba(255,255,255,0.12) !important;
+    background: #FFFFFF !important;
+    border: 1px solid var(--rule) !important;
     border-radius: 0.75rem !important;
 }
 
